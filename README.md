@@ -90,7 +90,9 @@ The exploratory analysis revealed several key patterns:
   * Fraudulent transactions: **492 (0.17%)**
 
 ![Transaction Amount by Class](Images/3Transaction_Amount_by_Class_log_scale.png)
-**Figure**: Distribution of legitimate and fraudulent transactions in the dataset.
+
+*Figure: Distribution of legitimate and fraudulent transactions in the dataset.*
+
 
 • **Highly skewed transaction amounts:**  Most transactions involve relatively small values, while a small number reach very high amounts.
 
@@ -98,6 +100,8 @@ The exploratory analysis revealed several key patterns:
 This pattern is common in financial transaction data and explains why the distribution appears concentrated near zero. It highlights the difficulty of fraud detection and the importance of using appropriate evaluation metrics and modeling strategies.
 
 ![2Transaction Amount Distribution](Images/2Transaction_Amount_Distribution.png)
+
+*Figure: Comparison of transaction amounts between legitimate and fraudulent transactions.*
 
 
 
